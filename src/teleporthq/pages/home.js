@@ -16,10 +16,6 @@ const Home = (props) => {
       <Helmet>
         <title>Morris' Designs - Home</title>
         <meta property="og:title" content="Morris' Designs - Home" />
-        <meta
-          property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/a2d50ac4-8faa-4df2-a94a-5d16b0bd899d/d8777ad0-c7c8-44c9-b181-4f1e4768353a?org_if_sml=1"
-        />
       </Helmet>
       <div className="home-container1">
         <h1 className="home-text">
