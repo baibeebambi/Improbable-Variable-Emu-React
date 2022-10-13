@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>Improbable Variable Emu</title>
+    <title>Morris Designs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -72,5 +72,22 @@
               }
             }
     </style>
+    <script>
+      let valueDisplays = document.querySelectorAll(".num");
+      let interval = 4500;
+
+      valueDisplays.forEach((valueDisplay) => {
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      let duration = Math.floor(interval / endValue);
+      let counter = setInterval(function () {
+      startValue += 1;
+      valueDisplay.textContent = startValue;
+      if (startValue == endValue) {
+      clearInterval(counter);
+      }
+      }, duration);
+      });
+    </script>
   </body>
 </html>
