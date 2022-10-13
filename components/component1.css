@@ -1,0 +1,10 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-icon {
+  fill: #ffffff;
+  width: 39px;
+  height: 39px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}

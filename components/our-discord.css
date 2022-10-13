@@ -1,0 +1,40 @@
+.our-discord-container {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+.our-discord-our-discord {
+  fill: white;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 13px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Russo One;
+  font-weight: 500;
+  padding-top: 0.8rem;
+  border-color: rgba(0, 0, 0, 0);
+  margin-right: 10px;
+  border-radius: 0px;
+  flex-direction: row;
+  padding-bottom: 0.8rem;
+  background-color: rgb(20, 102, 255);
+}
+.our-discord-our-discord:hover {
+  color: #ffffff;
+  background-color: #0458aa;
+}
+.our-discord-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+}
+.our-discord-text {
+  font-size: 16px;
+  margin-top: 4px;
+}
+@media(max-width: 1200px) {
+  .our-discord-our-discord {
+    font-family: Russo One;
+  }
+}

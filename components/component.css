@@ -1,0 +1,16 @@
+.component-container {
+  flex: 0 0 auto;
+  width: 425px;
+  height: 243px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  margin-right: var(--dl-space-space-threeunits);
+  justify-content: center;
+  background-color: rgb(20, 102, 255);
+}
+.component-icon {
+  width: 39px;
+  height: 39px;
+}

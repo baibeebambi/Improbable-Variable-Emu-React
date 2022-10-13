@@ -1,0 +1,43 @@
+.store-container {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+.store-store {
+  fill: white;
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 13px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Russo One;
+  font-weight: 500;
+  padding-top: 0.8rem;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 10px;
+  border-radius: 0px;
+  flex-direction: row;
+  padding-bottom: 0.8rem;
+  background-color: transparent;
+}
+.store-store:hover {
+  fill: black;
+  color: #000000;
+  background-color: white;
+}
+.store-icon {
+  width: 23px;
+  align-self: flex-end;
+  margin-right: var(--dl-space-space-halfunit);
+}
+.store-text {
+  font-size: 16px;
+  margin-top: 4px;
+}
+@media(max-width: 1200px) {
+  .store-store {
+    font-family: Russo One;
+  }
+}

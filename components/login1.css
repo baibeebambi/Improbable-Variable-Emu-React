@@ -1,0 +1,42 @@
+.login1-container {
+  display: flex;
+  position: relative;
+}
+.login1-login {
+  flex: 1;
+  color: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+  font-size: 13px;
+  font-style: normal;
+  transition: 0.3s;
+  font-family: Russo One;
+  font-weight: 500;
+  padding-top: 0.8rem;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0px;
+  flex-direction: row;
+  padding-bottom: 0.8rem;
+  background-color: rgba(255, 255, 255, 0);
+}
+.login1-login:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.login1-text {
+  fill: #ffffff;
+  transition: 0.3s;
+}
+
+@media(max-width: 1200px) {
+  .login1-login {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-style: normal;
+    font-family: Russo One;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
