@@ -1,0 +1,39 @@
+.instagram-container {
+  display: flex;
+  position: relative;
+}
+.instagram-instagram {
+  color: #ffffff;
+  width: 153px;
+  font-size: 15px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 5rem;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Russo One;
+  font-weight: 500;
+  padding-top: 0.8rem;
+  border-color: #ffffff;
+  border-style: hidden;
+  border-width: 1px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  padding-left: 3px;
+  border-radius: 0px;
+  margin-bottom: 5rem;
+  padding-right: 0px;
+  padding-bottom: 0.8rem;
+  text-decoration: none;
+  background-color: rgb(13, 48, 86);
+}
+.instagram-instagram:hover {
+  color: #ffffff;
+  background-color: rgb(20, 102, 255);
+}
+@media(max-width: 1200px) {
+  .instagram-instagram {
+    width: 153px;
+    font-family: Russo One;
+    padding-right: 0px;
+  }
+}
