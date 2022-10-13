@@ -285,25 +285,26 @@
             <div class="home-container20">
               <div>
                 <script>
-                      let valueDisplays = document.querySelectorAll(".num");
-                      let interval = 4500;
+                  (function() {
+                    let valueDisplays = document.querySelectorAll(".num1");
+                    let interval = 4500;
 
-                      valueDisplays.forEach((valueDisplay) => {
+                    valueDisplays.forEach((valueDisplay) => {
                       let startValue = 0;
                       let endValue = parseInt(valueDisplay.getAttribute("data-val"));
                       let duration = Math.floor(interval / endValue);
                       let counter = setInterval(function () {
                           startValue += 1;
                           valueDisplay.textContent = startValue;
-                      if (startValue == endValue) {
-                          clearInterval(counter);
-                      }
+                          if (startValue == endValue) {
+                              clearInterval(counter);
+                          }
                       }, duration);
-                  });
+                    });
+                  })()
                 </script>
-
                 <span
-                  class="num"
+                  class="num1"
                   data-val="600"
                   style="font-family:russo one; color:white; font-size:64px;"
                 >
@@ -315,7 +316,7 @@
             <div class="home-container21">
               <div>
                 <script>
-                      let valueDisplays = document.querySelectorAll(".num");
+                      let valueDisplays = document.querySelectorAll(".num2");
                       let interval = 4500;
 
                       valueDisplays.forEach((valueDisplay) => {
@@ -331,9 +332,8 @@
                       }, duration);
                   });
                 </script>
-
                 <span
-                  class="num"
+                  class="num2"
                   data-val="3"
                   style="font-family:russo one; color:white; font-size:64px;"
                 >
@@ -345,7 +345,7 @@
             <div class="home-container22">
               <div>
                 <script>
-                      let valueDisplays = document.querySelectorAll(".num");
+                      let valueDisplays = document.querySelectorAll(".num3");
                       let interval = 4500;
 
                       valueDisplays.forEach((valueDisplay) => {
@@ -361,9 +361,8 @@
                       }, duration);
                   });
                 </script>
-
                 <span
-                  class="num"
+                  class="num3"
                   data-val="50"
                   style="font-family:russo one; color:white; font-size:64px;"
                 >
