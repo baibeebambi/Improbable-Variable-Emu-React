@@ -296,16 +296,9 @@
   color: rgb(20, 102, 255);
   background-color: #efeded;
 }
-.home-html-node {
-  left: 0px;
-  width: 1920px;
-  bottom: 9px;
-  height: 905px;
-  position: absolute;
-}
 .home-container03 {
   width: 100%;
-  height: 2930px;
+  height: 1942px;
   display: flex;
   position: relative;
   align-items: flex-start;
@@ -1181,15 +1174,6 @@
     text-align: center;
     font-family: Russo One;
     padding-right: 0px;
-  }
-  .home-html-node {
-    top: NaNpx;
-    left: 0px;
-    right: 0px;
-    width: 1190px;
-    height: 1000px;
-    margin: auto;
-    position: absolute;
   }
   .home-container04 {
     top: 59px;
