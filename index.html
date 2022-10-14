@@ -284,12 +284,21 @@
           <div class="home-container19">
             <div class="home-container20">
               <div>
+                <span
+                  class="num1"
+                  data-val="600"
+                  style="font-family:russo one; color:white; font-size:64px;"
+                >
+                  000
+                </span>
                 <script>
                   (function() {
                     let valueDisplays = document.querySelectorAll(".num1");
                     let interval = 4500;
+                    console.log(valueDisplays)
 
                     valueDisplays.forEach((valueDisplay) => {
+                    console.log(valueDisplay)
                       let startValue = 0;
                       let endValue = parseInt(valueDisplay.getAttribute("data-val"));
                       let duration = Math.floor(interval / endValue);
@@ -303,20 +312,69 @@
                     });
                   })()
                 </script>
-                <span
-                  class="num1"
-                  data-val="600"
-                  style="font-family:russo one; color:white; font-size:64px;"
-                >
-                  000
-                </span>
               </div>
               <span class="home-text68">Discord Members</span>
             </div>
             <div class="home-container21">
+              <div>
+                <span
+                  class="num2"
+                  data-val2="3"
+                  style="font-family:russo one; color:white; font-size:64px;"
+                >
+                  0
+                </span>
+                <script>
+                    (function() {
+                      let valueDisplays2 = document.querySelectorAll(".num2");
+                      let interval2 = 4500;
+
+                      valueDisplays2.forEach((valueDisplay2) => {
+                      let startValue2 = 0;
+                      let endValue2 = parseInt(valueDisplay2.getAttribute("data-val2"));
+                      let duration2 = Math.floor(interval2 / endValue2);
+                      let counter2 = setInterval(function () {
+                          startValue2 += 1;
+                          valueDisplay2.textContent = startValue2;
+                      if (startValue2 == endValue2) {
+                          clearInterval(counter2);
+                      }
+                      }, duration2);
+                    });
+                  })()
+                </script>
+              </div>
               <span class="home-text69">Years of Experience</span>
             </div>
             <div class="home-container22">
+              <div>
+                <span
+                  class="num3"
+                  data-val3="50"
+                  style="font-family:russo one; color:white; font-size:64px;"
+                >
+                  0
+                </span>
+                <script>
+                  (function() {
+                      let valueDisplays3 = document.querySelectorAll(".num3");
+                      let interval3 = 4500;
+
+                      valueDisplays3.forEach((valueDisplay3) => {
+                      let startValue3 = 0;
+                      let endValue3 = parseInt(valueDisplay3.getAttribute("data-val3"));
+                      let duration3 = Math.floor(interval3 / endValue3);
+                      let counter3 = setInterval(function () {
+                          startValue3 += 1;
+                          valueDisplay3.textContent = startValue3;
+                      if (startValue3 == endValue3) {
+                          clearInterval(counter3);
+                      }
+                      }, duration3);
+                  });
+                  })()
+                </script>
+              </div>
               <span class="home-text70">Verified Customers</span>
             </div>
           </div>
