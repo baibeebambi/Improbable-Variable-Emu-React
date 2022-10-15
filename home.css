@@ -1078,7 +1078,6 @@
   width: 1920px;
   height: 925px;
   z-index: 100;
-  overflow: hidden;
   position: absolute;
   margin-top: Infinitypx;
 }
