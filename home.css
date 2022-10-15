@@ -1072,6 +1072,15 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
+.home-html-node {
+  top: 75px;
+  left: NaNpx;
+  width: 1920px;
+  height: 925px;
+  z-index: 100;
+  position: absolute;
+  margin-top: Infinitypx;
+}
 @media(max-width: 1600px) {
   .home-text04 {
     font-size: 30px;
