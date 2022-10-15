@@ -296,6 +296,14 @@
   color: rgb(20, 102, 255);
   background-color: #efeded;
 }
+.home-html-node {
+  top: 75px;
+  left: NaNpx;
+  width: 1920px;
+  height: 925px;
+  position: absolute;
+  margin-top: Infinitypx;
+}
 .home-container03 {
   width: 100%;
   height: 1942px;
