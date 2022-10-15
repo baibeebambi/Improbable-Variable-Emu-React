@@ -301,6 +301,7 @@
   left: NaNpx;
   width: 1920px;
   height: 925px;
+  z-index: 3;
   position: absolute;
   margin-top: Infinitypx;
 }
